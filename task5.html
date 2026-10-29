@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    .container{
+        width:50%;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+        border: 2px solid darkblue;
+    }
+    h2{
+        text-align: center;
+        color: darkblue;
+    }
+    label{
+        display: block;
+        margin-top: 15px;
+        font-weight: bold;
+    }
+    input,textarea{
+        width: 100%;
+        padding: 8px;
+        margin-top: 15px;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+    button{
+        width: 100%;
+        padding:10px;
+        margin-top: 15px;
+        background-color: darkblue;
+        color: white;
+        border-radius: 5px;
+    }
+   </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+            <label for="mail">Email</label>
+            <input type="email" id="mail" placeholder="Enter your mail" required>
+            <label name="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="Enter your number" required>
+            <label>Message</label>
+            <textarea rows="4" placeholder="Enter your message"></textarea>
+            <button type="submit">Send message</button>
+        </form>
+    </div>
+</body>
+</html>

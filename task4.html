@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container1{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 100px 150px 150px ;
+            grid-template-areas: 
+             'header header header'
+             'nav article article'
+             'ads article article'
+             'footer footer footer';
+        }
+        .container2{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 100px 150px 150px ;
+            grid-template-areas: 
+             'nav header header'
+             'nav article article'
+             'nav footer footer';
+        }
+        header{
+            grid-area: header;
+            background-color: rgb(23, 114, 71);
+        }
+        nav{
+            grid-area: nav;
+            background-color: rgb(138, 21, 75);
+        }
+        article{
+            grid-area: article;
+            background-color: aquamarine;
+        }
+        aside{
+            grid-area: ads;
+            background-color: rgb(175, 154, 34);
+        }
+        footer{
+            grid-area: footer;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <header>Header</header>
+        <nav>Nav</nav>
+        <article>Article</article>
+        <aside>Ads</aside>
+        <footer>footer</footer>
+    </div>
+
+    <br><br><br><br>
+    <div class="container2">
+        <header>Header</header>
+        <nav>Nav</nav>
+        <article>Article</article>
+        <aside>Ads</aside>
+        <footer>Footer</footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    /* background-color: #fffcf2; */
+}
+.container{
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    height: 4vh;
+    box-shadow: 2px 2px 5px grey;  
+}
+body{
+    background-color: #fffcf2;
+}
+.logo{
+    display: flex;
+    margin-left: 5%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 70px;
+    margin-right: 100px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+select{
+    border: none;
+    color: black;
+    background-color: #fffcf2;
+    font-size: medium;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.buy{
+    border: none;
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+    color: black;
+    font-size: medium;
+    background-color: rgb(208, 205, 205);
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.cart{
+    border: 1px solid black;
+    width: 50px;
+    padding: 3px;
+    text-align: center;
+    border-radius: 5px;
+}
+.section-1{
+    display: flex;
+    justify-content: space-around;
+}
+.pic img{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-top: 12%;
+}
+.para{
+    margin-top: 5%;
+    font-size: 20px;
+}
+.para h1{
+    padding-bottom: 5px;
+}
+.para button{
+    background-color: blue;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px gray;
+   
+}
+.para button:hover{
+     transform: translatey(-8px);
+     box-shadow: 1px 1px 8px black;
+}
+.title{
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 2%;
+}
+.box1 h3{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.box1{
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 25%;
+    min-height: 200px;
+    padding: 13px;
+    margin-left: 0;
+}
+.row1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.row2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+    margin-bottom: 2%;
+}
+.box1 img{
+    width: 30px;
+}

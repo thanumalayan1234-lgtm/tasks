@@ -1,0 +1,137 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+#container{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.head{
+    display: flex;
+    padding:1%;
+    gap: 8px;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(110, 46, 110);
+    }
+ul {
+    display: flex;
+    padding:5px;
+    margin-right:100px;
+    text-decoration: none;
+    list-style-type: none;
+    gap:50px;
+    font-size:130%;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+a:hover{
+    color: gold;
+    text-shadow: 2px 2px 5px gold;
+}
+.logo{
+    margin-left:5%;
+    color: white;
+}
+.logo:hover{
+    color:gold;
+      text-shadow: 2px 2px 5px gold;
+    
+}
+.art1:hover{
+    color:blue;
+}
+.a{
+    text-align: center;
+    background-color: rgb(224, 172, 224);
+    padding:6%;
+    
+}
+.a:hover{
+    background-color: rgb(177, 135, 177);
+    
+}
+.btn{
+    padding: 15px;
+    text-align: center;
+    border-radius: 7px;
+    background: rgb(90, 36, 90);
+    color: rgb(182, 181, 181);
+    box-shadow: 2px 2px 6px rgb(68, 11, 167);
+    
+    
+}
+.btn:hover{
+
+    transform:translateY(-8px);
+
+}
+.art{
+    text-align: center;
+    padding-top:50px;
+    color: rgb(124, 71, 124);
+    background-color: rgb(177, 135, 177);
+    
+
+}
+.art:hover{
+    color: gold;
+}
+.b{
+    
+    background-color: rgb(177, 135, 177);
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    height:31vh;
+
+}
+.art-list{
+    text-align: center;
+    display: flex;
+    font-size: 13px;
+    justify-content: center;
+    height: 22vh;
+    margin-top: 70px;
+    gap: 30px;
+    padding:5px;
+}
+.container{
+    border-radius:6px;
+    border: 2px solid rgb(252, 247, 247);
+    box-shadow: 2px 2px 4px white;
+    height: 12vh;
+    padding:5px;
+    width: 200px;
+    background-color:rgb(221, 219, 219);
+    
+}
+.container:hover{
+    transform:translateY(-8px);
+}
+.box{
+    color: rgb(97, 28, 97);
+    padding:5px;
+    font-size: 20px;
+    text-align: center;
+}
+.p{
+    font-size: 15px;
+    text-align: center;
+}
+.foot{
+    background-color: rgb(110, 46, 110);
+    padding: 28px;
+    text-align: center;
+    height:1vh;
+    font-size: 20px;
+}
+span{
+    color: red;
+}

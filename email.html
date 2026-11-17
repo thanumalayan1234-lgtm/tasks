@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Validation</title>
+
+    <script>
+        function emailValidate() {
+
+            let email = document.myForm.email.value.trim();
+
+            if (email === "") {
+                alert("Email cannot be empty");
+                document.myForm.email.focus();
+                return false;
+            }
+
+            let pattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+            if (!pattern.test(email)) {
+                alert("Invalid Email Address");
+                document.myForm.email.focus();
+                return false;
+            }
+
+            alert("Valid Email Address");
+            return true;
+        }
+    </script>
+</head>
+
+<body>
+
+    <h1>Email Validation</h1>
+
+    <form name="myForm" action="abc.php"
+          onsubmit="return emailValidate()" method="post">
+
+        <label>EMAIL ID:</label>
+        <input type="text" name="email">
+
+        <br><br>
+
+        <input type="submit" value="Register">
+
+    </form>
+
+</body>
+</html>
